@@ -15,8 +15,8 @@ body {
   font-family: "Playfair Display", serif;
   line-height: 1.5;
   text-align: center;
-  color: rgb(172, 5, 5);
-  font-size: 20px;
+  color: #ac0505;
+  font-size: 1.25rem;
 }
 
 h1 {
@@ -38,7 +38,7 @@ h2 {
 }
 
 p {
-  margin: 0 0 15px 0;
+  margin: 0 0 0.9375rem 0;
   color: white;
   text-shadow: 1px 1px 1px #666;
 }
@@ -52,18 +52,18 @@ p {
 .main-container {
   width: 100%;
   background: #bd4242;
-  padding: 15px;
+  padding: 0.9375rem;
 }
 
 @media (max-width: 650px) {
   .main-container {
-    padding: 10px;
+    padding: 0.625rem;
   }
 }
 
 #main {
-  padding: 1% 5%;
-  background: rgb(226, 190, 176);
+  padding: 1.25rem 5%;
+  background: #f6ebe7;
 }
 
 img {
@@ -74,61 +74,62 @@ img {
 }
 
 #img-div {
-  background: rgb(226, 190, 176);
-  padding: 5px;
+  background: #f6ebe7;
+  padding: 0.3125rem;
   margin: 0px;
 }
 
 #img-caption {
-  margin: 15px 0 5px 0;
+  margin: 0.9375rem 0 0.3125rem 0;
 }
 
 #headline {
-  margin: 50px 0;
-  padding: 10px;
-  color: white;
+  margin: 3.125rem 0;
+  padding: 0.625rem;
+  color: #fff;
   background: #bd4242;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   text-shadow: 1px 1px 1px #666;
   box-shadow: 2px 2px 5px #666;
 }
 
 @media (max-width: 650px) {
   #headline {
-    margin: 25px;
+    margin: 1.5625rem;
   }
 }
 
 ul {
-  max-width: 550px;
-  margin: 0 auto 50px auto;
+  max-width: 34.375rem;
+  margin: 0 auto 3.125rem auto;
   text-align: left;
   line-height: 1.6;
 }
 
 li {
-  margin: 30px 0;
+  margin: 1.875rem 0;
 }
 
 blockquote {
   font-style: italic;
-  max-width: 545px;
-  margin: 0 auto 50px auto;
+  max-width: 34.0625rem;
+  margin: 0 auto 3.125rem auto;
   text-align: center;
 }
 
 #NeilYoung {
-  background-color: rgb(226, 190, 196);
-  border-radius: 25px;
+  background-color: #e2bec4;
+  border-radius: 1.5625rem;
+  box-shadow: 2px 2px 5px #666;
 }
 
 a {
-  color: #7147a7;
+  color: #4757a7;
   text-decoration: none;
   transition: color ease-out 200ms;
 }
 
 a:hover {
-  color: rgb(23, 223, 106);
+  color: #17df6a;
 }
