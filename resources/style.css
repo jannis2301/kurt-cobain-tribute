@@ -119,6 +119,9 @@ blockquote {
 }
 
 #NeilYoung {
+  max-width: 280px;
+  width: 100%;
+  margin-bottom: 20px;
   background-color: #e2bec4;
   border-radius: 1.5625rem;
   box-shadow: 2px 2px 5px #666;
