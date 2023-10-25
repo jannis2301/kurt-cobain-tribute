@@ -1,65 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./resources/style.css" />
-  <title>Kurt Cobain Tribute Page</title>
-</head>
-<body>
-  <h1 id="title">Kurt Cobain</h1>
-  <div class="main-container">
-    <p>One of the greatest rock stars of all time</p>
-  </div>
-  <main id="main">
-    <figure id="img-div">
-      <img id="image" src="./img/kurt-cobain.jpg" alt="Portrait of kurt cobain" />
-      <figcaption id="img-caption">
-        A portrait of the legendary Kurt Cobain.
-      </figcaption>
-    </figure>
-    <section id="tribute-info">
-      <h2 id="headline">Timeline of Kurt Cobain's life:</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Kurt Cobain Tribute Page</title>
+  </head>
+  <body>
+    <h1 class="title">Kurt Cobain</h1>
+    <p class="description">One of the greatest rock stars of all time</p>
+    <main class="main">
+      <figure class="figure">
+        <img
+          class="main-image"
+          src="/src/assets/img/kurt-cobain.jpg"
+          alt="Portrait of kurt cobain"
+        />
+        <figcaption class="img-caption">
+          A portrait of the legendary Kurt Cobain.
+        </figcaption>
+      </figure>
+      <section class="tribute-info">
+        <h2 class="headline">Timeline of Kurt Cobain's life:</h2>
 
-      <ul>
-        <li><strong>1967</strong> - Born in Aberdeen, Washington</li>
-        <li><strong>1985</strong> - Forms his first music band "Fecal Matter". After one year the band disbands.</li>
-        <li><strong>1987</strong> - Founds "Nirvana" together with Krist Novoselic. The band name was
-          taken from the Buddhist concept, which Cobain described as "freedom from pain, suffering and
-          the external world", a concept that he aligned with the punk rock ethos and ideology.</li>
-        <li><strong>1991</strong> - The Album "Nevermind" was released. With Nevermind's lead single, "Smells Like Teen
-          Spirit", Nirvana quickly entered the mainstream, popularizing a subgenre of alternative rock called "grunge".
-        </li>
-        <li><strong>1992</strong> - A vocal opponent of sexism, racism and homophobia, he was publicly proud that
-          Nirvana had layed at a gay rights benefit, supporting No-on-Nine, in Oregon.</li>
-        <li><strong>1993</strong> - Releases the live album MTV Unplugged in New York. It features an acoustic
-          performance recorded at Sony Music Studios for the television series MTV Unplugged. Cobain suggested that the
-          stage be decorated with stargazer lilies, black candles, and a crystal chandelier. Coletti asked him, "You
-          mean like a funeral?", to which Cobain replied, "Exactly. Like a funeral."</li>
-        <li><strong>1994</strong> - Cobain dies at the age of 27 at his home in Seattle. He was found with a heroin
-          overdose and shot in the head from his Browning Auto 5 self-loading shotgun. He left a suicide note that ended
-          with a quote from the Neil Young song My My, Hey Hey (Out of the Blue):
-        </li>
-      </ul>
+        <div class="timeline-box">
+          <ul class="timeline">
+            <li class="timeline-points">
+              <strong>1967</strong> - Born in Aberdeen, Washington
+            </li>
+            <li class="timeline-points">
+              <strong>1985</strong> - Forms his first music band "Fecal Matter".
+              After one year the band disbands.
+            </li>
+            <li class="timeline-points">
+              <strong>1987</strong> - Founds "Nirvana" together with Krist
+              Novoselic. The band name was taken from the Buddhist concept,
+              which Cobain described as "freedom from pain, suffering and the
+              external world", a concept that he aligned with the punk rock
+              ethos and ideology.
+            </li>
+            <li class="timeline-points">
+              <strong>1991</strong> - The Album "Nevermind" was released. With
+              Nevermind's lead single, "Smells Like Teen Spirit", Nirvana
+              quickly entered the mainstream, popularizing a subgenre of
+              alternative rock called "grunge".
+            </li>
+            <li class="timeline-points">
+              <strong>1992</strong> - A vocal opponent of sexism, racism and
+              homophobia, he was publicly proud that Nirvana had layed at a gay
+              rights benefit, supporting No-on-Nine, in Oregon.
+            </li>
+            <li class="timeline-points">
+              <strong>1993</strong> - Releases the live album MTV Unplugged in
+              New York. It features an acoustic performance recorded at Sony
+              Music Studios for the television series MTV Unplugged. Cobain
+              suggested that the stage be decorated with stargazer lilies, black
+              candles, and a crystal chandelier. Coletti asked him, "You mean
+              like a funeral?", to which Cobain replied, "Exactly. Like a
+              funeral."
+            </li>
+            <li class="timeline-points">
+              <strong>1994</strong> - Cobain dies at the age of 27 at his home
+              in Seattle. He was found with a heroin overdose and shot in the
+              head from his Browning Auto 5 self-loading shotgun. He left a
+              suicide note that ended with a quote from the Neil Young song My
+              My, Hey Hey (Out of the Blue):
+            </li>
+          </ul>
 
-      <blockquote>
-        <cite>"It's better to burn out than to fade away."</cite>
-        <br>
-        <br>
-        - Kurt Cobain in April 1994, last words in his farewell letter
-      </blockquote>
+          <blockquote class="blockquote">
+            <cite>"It's better to burn out than to fade away."</cite>
+            <br />
+            <br />
+            - Kurt Cobain in April 1994, last words in his farewell letter
+          </blockquote>
 
-      <audio id="NeilYoung" controls>
-        <source src="./audio/Neil_Young-My_my_hey_hey.mp3" type="audio/mp3">
-      </audio>
+          <audio class="neil-young" controls>
+            <source
+              src="/src/assets/audio/Neil_Young-My_my_hey_hey.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+        </div>
 
-      <h2>If you have time, you should read more about <br> this unique rockstar on his <a id="tribute-link"
-          href="https://en.wikipedia.org/wiki/Kurt_Cobain" target="_blank">Wikipedia entry</a></h2>
-    </section>
-  </main>
-</body>
+        <h2 class="headline">
+          If you have time, you should read more about this unique rockstar on
+          his
+          <a
+            class="tribute-link"
+            href="https://en.wikipedia.org/wiki/Kurt_Cobain"
+            target="_blank"
+            >Wikipedia entry</a
+          >
+        </h2>
+      </section>
+    </main>
+  </body>
 </html>
